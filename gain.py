@@ -3,9 +3,9 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 from tqdm import tqdm as tq
-from algorithms.gain_utils import normalization, renormalization, rounding
-from algorithms.gain_utils import xavier_init
-from algorithms.gain_utils import binary_sampler, uniform_sampler, sample_batch_index
+from gain_utils import normalization, renormalization, rounding
+from gain_utils import xavier_init
+from gain_utils import binary_sampler, uniform_sampler, sample_batch_index
 import torch
 import torch.nn.functional as F
 import numpy as np
